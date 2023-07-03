@@ -12,6 +12,7 @@ if num > 0 and permit_print:
 elif not  permit_print:
     print("печать завершена")
 
-number = a
+
+
 
 
