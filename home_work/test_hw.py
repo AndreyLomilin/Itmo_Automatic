@@ -4,7 +4,7 @@ def test_homework():
 
 def test_QA():
     a = "QA"
-    b = "QA"
+    b = "QC"
     assert a == b
 
 

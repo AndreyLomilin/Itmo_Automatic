@@ -6,7 +6,7 @@
 
 str_1 = "test"
 str_2 = "Test1"
-if str_1 in str_2:
+if str_2 in str_1:
     print("Да")
 else:
     print("Нет")
