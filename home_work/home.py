@@ -1,12 +1,32 @@
-class Cat:
-    name = None
-    age = None
-    isHappy = None
+# class Page():
+#     def __init__(self, text, url):
+#         self.text = text
+#         self.url = url
+#         # self.get()
+#
+#     def get(self):
+#         print('Сайт называтся: ', self.text, 'по адресу:', self.url)
+#
+#
+# home_page = Page('Яндекс', 'http://ya.ru')
+# home_page.get()
 
-    def set_data(self, n, a, i):
-        self.name = n
-        self.age = a
-        self.isHappy = i
 
-cat1 = Cat() # создали объект кот
-cat1.set_data('Барсиу', 3, True)
+class NewPage():
+    def __init__(self, url):
+        self.url = url
+    def visitor(self):
+        return driver.get(self.url)
+
+HomePage = NewPage('http://demoga.com')
+
+
+
+
+
+
+
+
+
+
+

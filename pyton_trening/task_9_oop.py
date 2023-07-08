@@ -18,7 +18,10 @@ class ButtonTwo:
         self.text = text
         self.link = link
         self.loc = loc
-    def click(self):
+
+    def clicks(self):
         return 'Клик по локатору, - {}'.format(self.loc)
+
 home_two = ButtonTwo('домой', '/home', 'button#home')
-print(home_two.click())
+
+print(home_two.clicks())

@@ -1,3 +1,12 @@
+class Checks():
+
+    def __init__(self, loc):
+        self.loc = loc
+        self.get()
+    def get(self):
+        print(self.loc)
+
+
 class Input(Checks):
     def __init__(self, loc, text):
         super(Input, self).__init__(loc)
@@ -45,10 +54,3 @@ class Link(Checks):
     #     print(self.loc, self.text)
 
 link = Link('http://google.com', 'гугл')
-
-link = Link('http://google.com', 'гугл')
-
-
-
-
-
